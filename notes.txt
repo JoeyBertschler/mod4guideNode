@@ -19,3 +19,12 @@ npx eslint --init {
 }
 
 npm i -D nodemon
+
+3rd btn left -> "project xyz", 
+ctrl + enter
+
+gid add .
+git commit -m projectXyz
+
+npm i express cors dotenv 
+
