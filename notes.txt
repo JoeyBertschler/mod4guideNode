@@ -1,0 +1,21 @@
+npx gitignore node
+
+git init
+
+git checkout -b main
+
+npm init -y
+
+ctrl + k (clean consule)
+
+npx eslint --init {
+    problems,
+    common js,
+    none of these,
+    no (typescript),
+    node (select w. spaceb),
+    JSON,
+    yes
+}
+
+npm i -D nodemon
