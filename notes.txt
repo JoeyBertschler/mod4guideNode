@@ -28,3 +28,18 @@ git commit -m projectXyz
 
 npm i express cors dotenv 
 
+"scripts" {
+"test": "echo \"Error: no test specified\" && exit 1"
+-->
+"start": "node index.js",
+"server": "nodemon index.js"
+
+create index.js file
+console.log("web 39 rulez")
+npm start
+
+npm run server
+
+
+! copy paste package.json ok, but must run npm i
+! 
