@@ -15,6 +15,10 @@ if (process.env.NODE_ENV === 'development') { //on Heroku machine, an env variab
     server.use(cors()) //with a value of production (string)
 }
 
+server.use('*', (req, res) => {
+    res.send('<h1>success</h1>')
+})
+
 const PORT = process.env.PORT || 4000
 
 server.listen(PORT, () => {
