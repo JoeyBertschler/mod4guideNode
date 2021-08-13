@@ -43,3 +43,7 @@ npm run server
 
 ! copy paste package.json ok, but must run npm i
 ! 
+
+
+
+https://www.youtube.com/watch?v=HUT1A9OUwtk&ab_channel=LambdaSchool
