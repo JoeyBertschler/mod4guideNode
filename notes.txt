@@ -42,11 +42,7 @@ npm run server
 
 
 ! copy paste package.json ok, but must run npm i
-! npm list -g --depth=0
-! ls -lah
-! ctrl + l {move back to root of project}
-! npm run build
-! npx create-react-app .
+! 
 
 
 
