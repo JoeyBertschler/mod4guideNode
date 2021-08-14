@@ -18,7 +18,7 @@ if (process.env.NODE_ENV === 'development') { //on Heroku machine, an env variab
 
 //our api comes earlier in the pipeline
 server.get('/api/hello', (req,res) =>{
-    res.json({ message:'hello'})
+    res.json({ message:'i love you all'})
 })
 
 //catch-all sending back just index.html
@@ -27,8 +27,12 @@ server.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'client/build', 'index.html'))
 })
 
-const PORT = process.env.PORT || 4000
+const PORT = 3394
+
+//process.env.PORT || 4000
 
 server.listen(PORT, () => {
     console.log(`listening on ${PORT}`)
 })
+
+//"start": "node index.js",
